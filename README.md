@@ -1,3 +1,1 @@
-Fernando Ariel Torres Esteche
-2025100213
-Ing. Informatica
+"# Curso_Python_Fernando_Torres"
