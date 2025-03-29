@@ -2,3 +2,8 @@ print("Hola mundo")
 entero = 50
 flotante = 50.1
 print(entero)
+
+n1 = 7
+n2 = 5
+
+print("El resultado de la suma es: ", n1 + n2)
