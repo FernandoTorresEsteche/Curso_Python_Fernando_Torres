@@ -2,4 +2,3 @@ print("Hola mundo")
 entero = 50
 flotante = 50.1
 print(entero)
-Hola
