@@ -1,5 +1,6 @@
 from flask import Blueprint, request, jsonify
 
+
 login = Blueprint('login', __name__)
 
 @login.route('/login', methods=['POST'])
