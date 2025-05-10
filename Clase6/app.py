@@ -3,12 +3,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def dashboard():
-    data = {
+    datos = {
         'usuarios': 120,
         'ventas': 4520,
         'visitas': 3080
     }
-    return render_template('dashboard.html', data=data)
+    return render_template('dashboard.html', datos=datos)
 
 if __name__ == '__main__':
     app.run(debug=True)
