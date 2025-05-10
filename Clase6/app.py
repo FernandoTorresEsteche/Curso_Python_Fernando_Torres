@@ -1,0 +1,14 @@
+from flask import Flask, render_template
+app = Flask(__name__)
+
+@app.route('/')
+def dashboard():
+    data = {
+        'usuarios': 120,
+        'ventas': 4520,
+        'visitas': 3080
+    }
+    return render_template('dashboard.html', data=data)
+
+if __name__ == '__main__':
+    app.run(debug=True)
