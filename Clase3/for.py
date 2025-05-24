@@ -1,8 +1,8 @@
 #bucle for
 
-for i in range(6,8,9):
-    print("Datos:",{i})
+for i in(6,8,9,4,7):
+    print(f"Datos:",{i})
 
 data= [6,8,9,4,7]
 for i in data:
-    print("Datos:", {i})
+    print(f"Datos:", {i})
