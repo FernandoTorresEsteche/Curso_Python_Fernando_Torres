@@ -3,4 +3,4 @@ def sumar(a, b):
 
 #Ejemplo de uso
 resultado = sumar(5, 3)
-print("La suma es: {resultado}")
+print("La suma es:", {resultado})
