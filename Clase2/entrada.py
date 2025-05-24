@@ -4,7 +4,8 @@ cadena = input("¿Como se llama tu proyecto ")
 print("Tu proyecto se llama:",{cadena})
 
 cadena = input("¿Que version es? ")
-print("tu proyecto se llama:",{cadena+1})
+print(f"tu proyecto se llama:, {cadena}")
+
 
 #Salida de datos
 
