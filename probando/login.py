@@ -41,7 +41,7 @@ def verficar_credenciales(user, password):
         result = cursor.fetchone()
         
         if result: 
-            usurio = result['username']
+            usuario = result['username']
             print("Usuario y contraseña Ok")
             accion = 'LOGIN_OK'
         else:
@@ -57,4 +57,4 @@ def verficar_credenciales(user, password):
         codRes = 'ERROR_DB'
         menRes = 'Msg: ' + str(e)
         accion = 'LOGIN_ERROR'
-    return codRes, menRes, accion, usuario
+    return codRes, menRes, accion, usuario 
